@@ -6,3 +6,15 @@
 #ScriptName:reflection_scan.py
 #Lib requirements: python-nmap
 #software requirements: nmap, nmap scripts: upnp-info.nse,ntp-monlist.nse,dns-recursion.nse,snmp-sysdescr.nse
+
+
+
+
+-Usage:sudo reflection_scanner.py <target host or network>
+
+-results:
+
+{'ntp': False, 'snmp': True, 'Host': u'xxx.xxx.xxx.xxx', 'chargen': False, 'dns': False, 'ssdp': False}
+{'ntp': False, 'snmp': False, 'Host': u'xxx.xxx.xxx.xxx', 'chargen': True, 'dns': False, 'ssdp': True}
+
+
