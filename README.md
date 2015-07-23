@@ -10,7 +10,7 @@
 
 
 
-Usage:sudo reflection_scanner.py <target host or network>
+Usage:sudo reflection_scanner.py xxx.xxx.xxx.xxx/xx
 
 results:
 
