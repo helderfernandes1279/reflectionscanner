@@ -10,11 +10,12 @@
 
 
 
--Usage:sudo reflection_scanner.py <target host or network>
+Usage:sudo reflection_scanner.py <target host or network>
 
--results:
+results:
 
--{'ntp': False, 'snmp': True, 'Host': u'xxx.xxx.xxx.xxx', 'chargen': False, 'dns': False, 'ssdp': False}
--{'ntp': False, 'snmp': False, 'Host': u'xxx.xxx.xxx.xxx', 'chargen': True, 'dns': False, 'ssdp': True}
+{'ntp': False, 'snmp': True, 'Host': u'xxx.xxx.xxx.xxx', 'chargen': False, 'dns': False, 'ssdp': False}
+
+{'ntp': False, 'snmp': False, 'Host': u'xxx.xxx.xxx.xxx', 'chargen': True, 'dns': False, 'ssdp': True}
 
 
