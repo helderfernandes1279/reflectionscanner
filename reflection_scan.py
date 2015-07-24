@@ -75,7 +75,8 @@ for a in nm.all_hosts():
 for host in hosts_report:
     for key in host.keys():
 	if host[key]==True:
-           print host    
+           print host
+           break
 	
 
   
